@@ -1,0 +1,6 @@
+use_frameworks!
+target 'YKDatePicker_Tests' do
+  pod 'YKDatePicker', :path => '../'
+  
+  
+end
