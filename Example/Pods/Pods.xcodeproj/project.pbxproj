@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E173AE221D22480069059E /* YKDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E173A1221D22480069059E /* YKDatePickerView.m */; };
+		13E173AF221D22480069059E /* YKDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E173A2221D22480069059E /* YKDatePickerView.h */; };
+		13E173B0221D22480069059E /* DateModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E173A4221D22480069059E /* DateModel.h */; };
+		13E173B1221D22480069059E /* DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E173A5221D22480069059E /* DateModel.m */; };
+		13E173B2221D22480069059E /* Solar.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E173A7221D22480069059E /* Solar.m */; };
+		13E173B3221D22480069059E /* LunarSolarConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E173A8221D22480069059E /* LunarSolarConverter.h */; };
+		13E173B4221D22480069059E /* Lunar.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E173A9221D22480069059E /* Lunar.h */; };
+		13E173B5221D22480069059E /* LunarSolarConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E173AA221D22480069059E /* LunarSolarConverter.m */; };
+		13E173B6221D22480069059E /* Solar.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E173AB221D22480069059E /* Solar.h */; };
+		13E173B7221D22480069059E /* Lunar.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E173AC221D22480069059E /* Lunar.m */; };
+		13E173BA221D22760069059E /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E173B8221D22760069059E /* UIView+Util.m */; };
+		13E173BB221D22760069059E /* UIView+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E173B9221D22760069059E /* UIView+Util.h */; };
+		202DDB71DF4A52164A37ECAF0E947655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		29F920B1243E590561B9CB5BE52FF1CD /* YKDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C9EDF82CD1513C4A5AB6E96BC6869 /* YKDatePicker-dummy.m */; };
+		4535B94278B289F867F4F97698FBC0EF /* YKDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A81B86E06632A7B0741830858D54DA4D /* YKDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C3F25A58A48DF3008E24C24B65FD199 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BA6FB20DFD7A23282CE06687AEB96C /* ReplaceMe.m */; };
+		5D5D4504CC0C24D0879663D4CF33190B /* Pods-YKDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F04B1DE24A020495DAF23917E4C7AAF4 /* Pods-YKDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE2625A775AF27C0DC5CB3A484494FA9 /* Pods-YKDatePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD29F0F9FDC31C75C3D57E83742BF74 /* Pods-YKDatePicker_Tests-dummy.m */; };
+		FE5D8EC71FC373433D93ED5C169CB519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E825BD96176D11E0AAAF5B1E5E2F5FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C21601CE80361EC8F8352B521863A8;
+			remoteInfo = YKDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BA6FB20DFD7A23282CE06687AEB96C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YKDatePicker/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		0AD29F0F9FDC31C75C3D57E83742BF74 /* Pods-YKDatePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YKDatePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		13E173A1221D22480069059E /* YKDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKDatePickerView.m; sourceTree = "<group>"; };
+		13E173A2221D22480069059E /* YKDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKDatePickerView.h; sourceTree = "<group>"; };
+		13E173A4221D22480069059E /* DateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateModel.h; sourceTree = "<group>"; };
+		13E173A5221D22480069059E /* DateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateModel.m; sourceTree = "<group>"; };
+		13E173A7221D22480069059E /* Solar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Solar.m; sourceTree = "<group>"; };
+		13E173A8221D22480069059E /* LunarSolarConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarSolarConverter.h; sourceTree = "<group>"; };
+		13E173A9221D22480069059E /* Lunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lunar.h; sourceTree = "<group>"; };
+		13E173AA221D22480069059E /* LunarSolarConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarSolarConverter.m; sourceTree = "<group>"; };
+		13E173AB221D22480069059E /* Solar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solar.h; sourceTree = "<group>"; };
+		13E173AC221D22480069059E /* Lunar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lunar.m; sourceTree = "<group>"; };
+		13E173AD221D22480069059E /* LeapMonths.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LeapMonths.plist; sourceTree = "<group>"; };
+		13E173B8221D22760069059E /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		13E173B9221D22760069059E /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		582DB127D3EAFD2C5AE5134753C2FD00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B5C9EDF82CD1513C4A5AB6E96BC6869 /* YKDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YKDatePicker-dummy.m"; sourceTree = "<group>"; };
+		5E326AF9072E6DDDFA1EA4336A7B1F3A /* Pods-YKDatePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YKDatePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6AAB00BD3B40BDD231CA6F3B32C618E5 /* Pods-YKDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YKDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6DE3BDE98DE32454B0576BAB44954555 /* YKDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YKDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		880A1DED3C5C428C21798DE7E17A17FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937748A15BA83E5D284CF24A16A68DF7 /* YKDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YKDatePicker.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		957AD4EEC4843D11ACDA6B9B48F911FE /* Pods-YKDatePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YKDatePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		99B4B1877E5611F23E439B2D89E2C526 /* YKDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YKDatePicker.podspec; sourceTree = "<group>"; };
+		9DAA35F5EAEFBF4ECA19B05C994DBE32 /* Pods-YKDatePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YKDatePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		9EB76EA6FFC1E87CB5EDB8C5A83582D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A544169DD717EECDAB61B3EB3B4ABECF /* Pods_YKDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A735721FB78816E34A881285A5EEEA1B /* Pods-YKDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YKDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A81B86E06632A7B0741830858D54DA4D /* YKDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YKDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		C447B1BB8D7F582D06E46E5119C6A0B8 /* YKDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YKDatePicker.xcconfig; sourceTree = "<group>"; };
+		D074CF0DA985CEB23E9066AC81457E4C /* YKDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YKDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		DC8D4E36F60C38CDEB394F5ED89982CD /* Pods-YKDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YKDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED15EB673C0FB8737E071214395C649E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EDCC8456B7466940A5C5702A27212839 /* Pods-YKDatePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YKDatePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F04B1DE24A020495DAF23917E4C7AAF4 /* Pods-YKDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YKDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E73A92359DB0EB6A27AA932CEFCCDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5D8EC71FC373433D93ED5C169CB519 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92196E6CCDF9E53C7B7FC9A9C6979C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202DDB71DF4A52164A37ECAF0E947655 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E173A0221D22480069059E /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				13E173A1221D22480069059E /* YKDatePickerView.m */,
+				13E173A2221D22480069059E /* YKDatePickerView.h */,
+				13E173A3221D22480069059E /* model */,
+				13E173A6221D22480069059E /* class */,
+				13E173AD221D22480069059E /* LeapMonths.plist */,
+			);
+			path = DatePickerView;
+			sourceTree = "<group>";
+		};
+		13E173A3221D22480069059E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				13E173A4221D22480069059E /* DateModel.h */,
+				13E173A5221D22480069059E /* DateModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		13E173A6221D22480069059E /* class */ = {
+			isa = PBXGroup;
+			children = (
+				13E173B9221D22760069059E /* UIView+Util.h */,
+				13E173B8221D22760069059E /* UIView+Util.m */,
+				13E173A7221D22480069059E /* Solar.m */,
+				13E173A8221D22480069059E /* LunarSolarConverter.h */,
+				13E173A9221D22480069059E /* Lunar.h */,
+				13E173AA221D22480069059E /* LunarSolarConverter.m */,
+				13E173AB221D22480069059E /* Solar.h */,
+				13E173AC221D22480069059E /* Lunar.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		39C8BCC8EDCC51B111215EE7FB84AD7E /* Pods-YKDatePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				880A1DED3C5C428C21798DE7E17A17FB /* Info.plist */,
+				957AD4EEC4843D11ACDA6B9B48F911FE /* Pods-YKDatePicker_Tests.modulemap */,
+				EDCC8456B7466940A5C5702A27212839 /* Pods-YKDatePicker_Tests-acknowledgements.markdown */,
+				DC8D4E36F60C38CDEB394F5ED89982CD /* Pods-YKDatePicker_Tests-acknowledgements.plist */,
+				0AD29F0F9FDC31C75C3D57E83742BF74 /* Pods-YKDatePicker_Tests-dummy.m */,
+				5E326AF9072E6DDDFA1EA4336A7B1F3A /* Pods-YKDatePicker_Tests-frameworks.sh */,
+				9DAA35F5EAEFBF4ECA19B05C994DBE32 /* Pods-YKDatePicker_Tests-resources.sh */,
+				F04B1DE24A020495DAF23917E4C7AAF4 /* Pods-YKDatePicker_Tests-umbrella.h */,
+				A735721FB78816E34A881285A5EEEA1B /* Pods-YKDatePicker_Tests.debug.xcconfig */,
+				6AAB00BD3B40BDD231CA6F3B32C618E5 /* Pods-YKDatePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-YKDatePicker_Tests";
+			path = "Target Support Files/Pods-YKDatePicker_Tests";
+			sourceTree = "<group>";
+		};
+		4E6DC7C4D3E1094123FEFD6A3F115C4A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39C8BCC8EDCC51B111215EE7FB84AD7E /* Pods-YKDatePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CFB7FD86E1CAE53DDAFEF257C11CD1FE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9568CC313F31490BA977EEC3995D4F38 /* Products */,
+				4E6DC7C4D3E1094123FEFD6A3F115C4A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CAF8636F1AED75FDC9DC25D8E30BC29 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9EB76EA6FFC1E87CB5EDB8C5A83582D7 /* LICENSE */,
+				ED15EB673C0FB8737E071214395C649E /* README.md */,
+				99B4B1877E5611F23E439B2D89E2C526 /* YKDatePicker.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9568CC313F31490BA977EEC3995D4F38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A544169DD717EECDAB61B3EB3B4ABECF /* Pods_YKDatePicker_Tests.framework */,
+				6DE3BDE98DE32454B0576BAB44954555 /* YKDatePicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD9FDD95CEDBFE6936BA387B13B62D65 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				582DB127D3EAFD2C5AE5134753C2FD00 /* Info.plist */,
+				937748A15BA83E5D284CF24A16A68DF7 /* YKDatePicker.modulemap */,
+				C447B1BB8D7F582D06E46E5119C6A0B8 /* YKDatePicker.xcconfig */,
+				5B5C9EDF82CD1513C4A5AB6E96BC6869 /* YKDatePicker-dummy.m */,
+				D074CF0DA985CEB23E9066AC81457E4C /* YKDatePicker-prefix.pch */,
+				A81B86E06632A7B0741830858D54DA4D /* YKDatePicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YKDatePicker";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFB7FD86E1CAE53DDAFEF257C11CD1FE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5E8BA32A79C3412AD58ED3E7B73419B /* YKDatePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D5E8BA32A79C3412AD58ED3E7B73419B /* YKDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				13E173A0221D22480069059E /* DatePickerView */,
+				02BA6FB20DFD7A23282CE06687AEB96C /* ReplaceMe.m */,
+				8CAF8636F1AED75FDC9DC25D8E30BC29 /* Pod */,
+				AD9FDD95CEDBFE6936BA387B13B62D65 /* Support Files */,
+			);
+			name = YKDatePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02FED44281556C6236539D09280A81FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E173BB221D22760069059E /* UIView+Util.h in Headers */,
+				13E173B6221D22480069059E /* Solar.h in Headers */,
+				4535B94278B289F867F4F97698FBC0EF /* YKDatePicker-umbrella.h in Headers */,
+				13E173AF221D22480069059E /* YKDatePickerView.h in Headers */,
+				13E173B3221D22480069059E /* LunarSolarConverter.h in Headers */,
+				13E173B0221D22480069059E /* DateModel.h in Headers */,
+				13E173B4221D22480069059E /* Lunar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2816F75D47FD6988E6E6A385E7277ADB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5D4504CC0C24D0879663D4CF33190B /* Pods-YKDatePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20C21601CE80361EC8F8352B521863A8 /* YKDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDE7D8F8F934E7A1BCA369CF1245A65 /* Build configuration list for PBXNativeTarget "YKDatePicker" */;
+			buildPhases = (
+				DB0D31D1BC9DEE72C19C126891837314 /* Sources */,
+				92196E6CCDF9E53C7B7FC9A9C6979C86 /* Frameworks */,
+				02FED44281556C6236539D09280A81FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKDatePicker;
+			productName = YKDatePicker;
+			productReference = 6DE3BDE98DE32454B0576BAB44954555 /* YKDatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BEC48A2E439184F0C84DECE6C30F4B6 /* Pods-YKDatePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB9357845D6191D4858FF2034F3B5DE /* Build configuration list for PBXNativeTarget "Pods-YKDatePicker_Tests" */;
+			buildPhases = (
+				2D5B223D5A2A279E064AD3AF3E8D1125 /* Sources */,
+				7E73A92359DB0EB6A27AA932CEFCCDFC /* Frameworks */,
+				2816F75D47FD6988E6E6A385E7277ADB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F6C65426255FE4EFA4C6F9DC7D731CA /* PBXTargetDependency */,
+			);
+			name = "Pods-YKDatePicker_Tests";
+			productName = "Pods-YKDatePicker_Tests";
+			productReference = A544169DD717EECDAB61B3EB3B4ABECF /* Pods_YKDatePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9568CC313F31490BA977EEC3995D4F38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BEC48A2E439184F0C84DECE6C30F4B6 /* Pods-YKDatePicker_Tests */,
+				20C21601CE80361EC8F8352B521863A8 /* YKDatePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D5B223D5A2A279E064AD3AF3E8D1125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2625A775AF27C0DC5CB3A484494FA9 /* Pods-YKDatePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0D31D1BC9DEE72C19C126891837314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E173B2221D22480069059E /* Solar.m in Sources */,
+				5C3F25A58A48DF3008E24C24B65FD199 /* ReplaceMe.m in Sources */,
+				13E173BA221D22760069059E /* UIView+Util.m in Sources */,
+				13E173B1221D22480069059E /* DateModel.m in Sources */,
+				13E173B7221D22480069059E /* Lunar.m in Sources */,
+				13E173B5221D22480069059E /* LunarSolarConverter.m in Sources */,
+				13E173AE221D22480069059E /* YKDatePickerView.m in Sources */,
+				29F920B1243E590561B9CB5BE52FF1CD /* YKDatePicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F6C65426255FE4EFA4C6F9DC7D731CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YKDatePicker;
+			target = 20C21601CE80361EC8F8352B521863A8 /* YKDatePicker */;
+			targetProxy = E825BD96176D11E0AAAF5B1E5E2F5FAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45F2EC432DE4B1C111466B56085B48CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAB00BD3B40BDD231CA6F3B32C618E5 /* Pods-YKDatePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YKDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YKDatePicker_Tests/Pods-YKDatePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9FCD9D1667F101F5B40848906FED3661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A735721FB78816E34A881285A5EEEA1B /* Pods-YKDatePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YKDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YKDatePicker_Tests/Pods-YKDatePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEAB686FBB92F901C88D09807F337D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C447B1BB8D7F582D06E46E5119C6A0B8 /* YKDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YKDatePicker/YKDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YKDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YKDatePicker/YKDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = YKDatePicker;
+				PRODUCT_NAME = YKDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BED90B5291F83E7D38005C87D45DE711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C447B1BB8D7F582D06E46E5119C6A0B8 /* YKDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YKDatePicker/YKDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YKDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YKDatePicker/YKDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = YKDatePicker;
+				PRODUCT_NAME = YKDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB9357845D6191D4858FF2034F3B5DE /* Build configuration list for PBXNativeTarget "Pods-YKDatePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FCD9D1667F101F5B40848906FED3661 /* Debug */,
+				45F2EC432DE4B1C111466B56085B48CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDE7D8F8F934E7A1BCA369CF1245A65 /* Build configuration list for PBXNativeTarget "YKDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED90B5291F83E7D38005C87D45DE711 /* Debug */,
+				AEAB686FBB92F901C88D09807F337D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

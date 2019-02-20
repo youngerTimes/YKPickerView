@@ -1,0 +1,16 @@
+PODS:
+  - YKDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - YKDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  YKDatePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YKDatePicker: 4a420b470b9b1f7731e237dd7650b57329227b0f
+
+PODFILE CHECKSUM: 6947074fed7370bccaa9ecb4c69c85d91b6ce6c7
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module YKDatePicker {
+  umbrella header "YKDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
